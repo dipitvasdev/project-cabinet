@@ -21,11 +21,7 @@
 
 ## Visit
 
-Check out the live demo of **Project Cabinet** [here](#).
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Check out the live demo of **Project Cabinet** [here]('https://project-cabinet.vercel.app/').
 
 ---
 
