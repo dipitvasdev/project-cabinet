@@ -21,7 +21,7 @@
 
 ## Visit
 
-Check out the live demo of **Project Cabinet** [here]('https://project-cabinet.vercel.app/').
+Check out the live demo of **Project Cabinet** [here](https://project-cabinet.vercel.app/).
 
 ---
 
