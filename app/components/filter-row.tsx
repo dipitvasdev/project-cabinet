@@ -45,7 +45,7 @@ export default function FilterRow() {
   return (
     <div className="col-span-12 md:col-span-9 sm:mt-8 mt-3 flex items-center justify-center">
       <motion.div
-        className="md:h-[6rem] h-[9rem] rounded-none border border-white border-opacity-40 bg-white bg-opacity-80 shadow-lg shadow-black/[0.03] backdrop-blur-[0.5rem] xl:h-[3.25rem] md:rounded-full dark:bg-gray-950 dark:border-black/40 dark:bg-opacity-75 flex justify-center items-center"
+        className="lg:h-[6rem] md:h-[9rem] h-[12rem] rounded-none border border-white border-opacity-40 bg-white bg-opacity-80 shadow-lg shadow-black/[0.03] backdrop-blur-[0.5rem] xl:h-[4rem] md:rounded-full dark:bg-gray-950 dark:border-black/40 dark:bg-opacity-75 flex justify-center items-center"
         initial={{ y: -100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
       >
