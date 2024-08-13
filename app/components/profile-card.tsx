@@ -14,7 +14,7 @@ export default function ProfileCard() {
       transition={{
         delay: 0.1,
       }}
-      className="bg-white px-7 pt-3 lg:flex items-center justify-center rounded-2xl outline-none hover:scale-105 active:scale-105 transition border border-black/10 dark:bg-white/10 shadow-lg col-span-4 hidden lg:h-full xl:h-[40rem]"
+      className="bg-white px-7 pt-3 lg:flex items-center justify-center rounded-2xl outline-none hover:scale-105 active:scale-105 transition border border-black/10 dark:bg-white/10 shadow-lg col-span-3 hidden lg:h-full xl:h-[40rem]"
     >
       <div className="flex flex-col items-center pb-10 w-full">
         <motion.h1

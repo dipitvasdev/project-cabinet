@@ -15,19 +15,17 @@ export default function HeaderMain() {
       transition={{
         delay: 0.2,
       }}
-      className="flex flex-col items-center justify-center lg:justify-normal col-span-10 sm:col-span-12  h-full gap-24"
+      className="flex flex-col items-center justify-center xl:justify-normal col-span-10 lg:col-span-7 h-full gap-24"
     >
       <Image
         src={LogoLight}
         alt="Project Cabinet"
-        width={400}
-        className="mt-0 md:mt-20 dark:hidden"
+        className="xl:w-[25rem] lg:w-[22rem] md:w-[15rem] w-fit mt-0 md:mt-20 dark:hidden"
       />
       <Image
         src={LogoDark} // Dark logo
         alt="Project Cabinet"
-        width={400}
-        className="mt-0 md:mt-20 hidden dark:block"
+        className="xl:w-[25rem] lg:w-[22rem] md:w-[15rem] w-fit mt-0 md:mt-20 hidden dark:block"
       />
       <div className="flex flex-col items-center justify-center gap-10">
         <TypeWritter />

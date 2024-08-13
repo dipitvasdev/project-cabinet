@@ -6,7 +6,7 @@ import ProfileCard from "./components/profile-card";
 
 export default function Home() {
   return (
-    <main className="grid md:grid-flow-col items-center p-12 h-screen gap-10 grid-cols-12 grid-flow-col">
+    <main className="grid justify-center items-center p-12 h-screen gap-0 lg:gap-10 grid-cols-10 grid-flow-col">
       <ProfileCard />
       <HeaderMain />
     </main>
