@@ -2,7 +2,7 @@
 
 **Project Cabinet** is a sleek, interactive portfolio designed to showcase my coding projects through visually engaging cards. It features a responsive design, advanced filtering, and sorting capabilities, providing a dynamic and organized presentation of my work.
 
-![Project Cabinet Preview]('project-cabinet.png')
+![Project Cabinet Preview](project-cabinet.png)
 
 ## Features
 
@@ -21,7 +21,7 @@
 
 ## Visit
 
-Check out the live demo of **Project Cabinet** [here]('https://project-cabinet.vercel.app/').
+Check out the live demo of **Project Cabinet** [here](https://project-cabinet.vercel.app/).
 
 ---
 
