@@ -3,7 +3,7 @@ import { Fira_Sans } from "next/font/google";
 import "./globals.css";
 import ActivePageContextProvider from "@/context/active-page-context";
 import ActiveFiltersContextProvider from "@/context/active-filters-context";
-
+import { Analytics } from "@vercel/analytics/react";
 const fira_sans = Fira_Sans({
   weight: ["300", "400", "500", "700"], // Ensure spaces after commas for readability (optional)
   subsets: ["latin"],
@@ -37,6 +37,7 @@ export default function RootLayout({
         <ActiveFiltersContextProvider>
           <ActivePageContextProvider>{children}</ActivePageContextProvider>
         </ActiveFiltersContextProvider>
+        <Analytics />
       </body>
     </html>
   );
