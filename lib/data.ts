@@ -26,6 +26,7 @@ type ProjectProps = {
   imageUrl: StaticImageData;
   tags: TagType[];
   date: Date;
+  liveLink: string | null;
 };
 
 export const projectsData: ProjectProps[] = [
@@ -37,6 +38,8 @@ export const projectsData: ProjectProps[] = [
     imageUrl: spoilerDetectionImg,
     tags: ["Data Science", "Machine Learning", "Generative AI"],
     date: new Date("2023-05-01"),
+    liveLink:
+      "https://github.com/dipitvasdev/Analyzing-Modern-Deep-Learning-Approaches-for-Spoiler-Detection-in-Text",
   },
   {
     title: "Multiplayer Rock Paper Scissor Webcam Game",
@@ -46,6 +49,8 @@ export const projectsData: ProjectProps[] = [
     imageUrl: rockPaperScissorImg,
     tags: ["Machine Learning", "Web Development", "Sofware Development"],
     date: new Date("2023-02-01"),
+    liveLink:
+      "https://github.com/dipitvasdev/Multiplayer-Rock-Paper-Scissor/tree/69977c007fbb2d05048004b118391d2270db8c9a",
   },
   {
     title: "NYU Data Science Capstone: Exploring Music Data Analytics",
@@ -55,6 +60,7 @@ export const projectsData: ProjectProps[] = [
     imageUrl: musicDataAnalyticsImg,
     tags: ["Data Science", "Machine Learning", "Data Analytics"],
     date: new Date("2023-12-01"),
+    liveLink: "https://sites.google.com/nyu.edu/spotifymusicanalysis/home",
   },
   {
     title: "ELT Pipeline Development and Deployment with AirFlow",
@@ -64,6 +70,7 @@ export const projectsData: ProjectProps[] = [
     imageUrl: dbtETL,
     tags: ["Data Science", "Data Analytics"],
     date: new Date("2024-07-01"),
+    liveLink: null,
   },
   {
     title: "Tesla Stock Performance Dashboard Tableau: NYU Stern",
@@ -73,6 +80,8 @@ export const projectsData: ProjectProps[] = [
     imageUrl: teslaDashboard,
     tags: ["Data Analytics"],
     date: new Date("2023-12-01"),
+    liveLink:
+      "https://public.tableau.com/app/profile/dipit.vasdev/viz/dv2224_assignment2/Dashboard3",
   },
   {
     title: "Full Stack Recipe Sharing Platform",
@@ -82,6 +91,8 @@ export const projectsData: ProjectProps[] = [
     imageUrl: recipeSharing,
     tags: ["Web Development", "Sofware Development"],
     date: new Date("2024-07-01"),
+    liveLink:
+      "https://github.com/dipitvasdev/Recipe-Sharing-Platform-Django-Backend",
   },
   {
     title: "AI-Driven GitHub Issue Classification System",
@@ -96,6 +107,7 @@ export const projectsData: ProjectProps[] = [
       "Artificial Intelligence",
     ],
     date: new Date("2024-05-01"),
+    liveLink: "https://github.com/dipitvasdev/Github-Issue-Classifier",
   },
   {
     title: "Predictive Analysis and Insights on NBA Playoff Outcomes",
@@ -105,6 +117,7 @@ export const projectsData: ProjectProps[] = [
     imageUrl: nbaPlayoffs,
     tags: ["Data Science", "Machine Learning", "Data Analytics"],
     date: new Date("2024-06-01"),
+    liveLink: "https://rpubs.com/dipitvasdev/nba-outcomes",
   },
   {
     title: "Fully Responsive and Modern Portfolio",
@@ -120,6 +133,7 @@ export const projectsData: ProjectProps[] = [
     imageUrl: portfolio,
     tags: ["Web Development", "Sofware Development"],
     date: new Date("2024-05-01"),
+    liveLink: "https://dipitvasdev.vercel.app/",
   },
   {
     title: "Data Analysis and Visualization of World Development Indicators",
@@ -129,6 +143,8 @@ export const projectsData: ProjectProps[] = [
     imageUrl: wdi,
     tags: ["Data Analytics"],
     date: new Date("2024-07-01"),
+    liveLink:
+      "https://github.com/dipitvasdev/Data-Analysis-World-Development-Indicators-in-Python",
   },
   {
     title: "Project Cabinet: My Coding Projects Showcase",
@@ -138,5 +154,6 @@ export const projectsData: ProjectProps[] = [
     imageUrl: projectCabinet,
     tags: ["Sofware Development", "Web Development"],
     date: new Date("2024-08-01"),
+    liveLink: "https://project-cabinet.vercel.app",
   },
 ] as const;
